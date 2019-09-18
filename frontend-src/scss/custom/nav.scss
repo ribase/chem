@@ -1,0 +1,23 @@
+
+nav {
+  background: rgba(0, 0, 0, 0);
+  font-size: 18px;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  &.navbar {
+    position:fixed;
+    z-index: 9999;
+  }
+  .navbar-brand {
+    font-family: 'Saira Stencil One';
+    font-size: 45px;
+    transition: all 0.5s ease-in-out;
+  }
+  &.moved {
+    background: rgba(0, 0, 0,1);
+    .navbar-brand {
+      font-size: 30px;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+}

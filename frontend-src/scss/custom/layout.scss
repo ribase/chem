@@ -1,0 +1,107 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  color:$white-color;
+}
+
+h3,h4,h5,h6 {
+  font-weight: 800;
+}
+
+h1,h2 {
+  font-family: 'Saira Stencil One';
+  font-size:250%;
+}
+
+i {
+  font-weight: 300;
+  &.big-icon {
+    font-size:450%;
+    padding:20px;
+  }
+}
+
+a {
+  cursor:pointer;
+}
+
+section {
+  min-height:100vh;
+  padding: 75px 0;
+  &.home {
+    background: url("./images/guitar-1245856.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.services {
+    background: url("./images/drums-2618153.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.about {
+    background: url("./images/admission-2974645.jpg") no-repeat;
+    background-size: cover;
+  }
+  &.booking {
+    background: url("./images/audience-1850119.jpg") no-repeat;
+    background-size: cover;
+  }
+}
+
+.background-black-05 {
+  background: rgba(0,0,0, 0.5);
+}
+
+.background-black-07 {
+  background: rgba(0, 0, 0,0.7);
+}
+
+.padding-50 {
+  padding:.5rem 50px;
+}
+
+.padding-top-25 {
+  padding-top:25px;
+}
+
+.padding-bottom-25 {
+  padding-bottom:25px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $white-color;
+  opacity: 0.7; /* Firefox */
+}
+
+input, textarea {
+  &.form-control {
+    border:none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-radius: 0;
+    color:$white-color;
+    &:focus {
+      background-color: transparent;
+      border-bottom: 3px solid $white-color;
+      color:$white-color;
+      box-shadow: 0 0 0 0.2rem rgba(241, 196, 15,0.25);
+    }
+    &:active {
+      background-color: transparent;
+      border-bottom: 3px solid $white-color;
+      color:$white-color;
+    }
+  }
+}
+
+.btn-info {
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid black;
+  border-radius: 0;
+  padding: 10px 20px;
+  &:hover {
+    background-color: black;
+    border: 3px solid black;
+    color:white;
+  }
+}

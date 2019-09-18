@@ -1,0 +1,20 @@
+// IMPORT CUSTOM VARIABLES AS IT SETS CUSTOM DEFINITION SO BOOTSTRAP WON'T SET ITS DEFAULT
+// https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults
+
+// If it's possible, keep this line above BOOTSTRAP
+@import "custom/variables";
+// BOOTSTRAP
+@import "vendor/bootstrap/bootstrap";
+
+@import "~animate.css/animate.min.css";
+
+@import "vendor/fontawesome/fontawesome-all.min.css";
+@import "vendor/trumbowyg.min.css";
+
+/**************** Here goes your custom import ******************/
+@import "custom/custom";
+@import "custom/layout";
+@import "custom/nav";
+
+
+
