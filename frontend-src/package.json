@@ -33,7 +33,7 @@
     "jquery-ui": "^1.12.1",
     "jscroll": "^2.4.1",
     "node-js-marker-clusterer": "^1.0.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "nunjucks": "*",
     "owl.carousel": "^2.3.4",
     "path": "^0.12.7",
